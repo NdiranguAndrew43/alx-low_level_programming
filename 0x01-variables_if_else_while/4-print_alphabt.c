@@ -11,7 +11,10 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'z') {
-			if (c != 'q' && c != 'e' && c <= 'z')
+			if
+			   (c != 'q' c <= 'z')
+			   (c != 'e' c <= 'z')
+			   (c <= 'z')
 					putchar(c);
 			c++;
 			}
