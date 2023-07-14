@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry Point
- * Retrn: eachtime 0
+ *main - Entry Point
+ *Description: 'prints the last digit of the generated number'
+ *Return: eachtime 0
  */
 int main(void)
 {
