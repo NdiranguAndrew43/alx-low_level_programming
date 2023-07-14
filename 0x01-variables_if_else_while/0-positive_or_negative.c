@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point
+ * Description: 'prog generates a number and declares if positive or negative'
  * Return: Always 0 (Success)
  */
 
@@ -19,5 +20,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
-	return (0);;
+	return (0);
 }
