@@ -19,3 +19,5 @@ void print_square(int size);
 void print_triangle(int size);
 
 int _putchar(char a);
+
+void print_number(int n);
