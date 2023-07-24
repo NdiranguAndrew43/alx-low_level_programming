@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
- * _puts -  function that prints a string, followed by a new line
+ * _puts -  prints a string
  * @str: string to print
  * Return: void
- */
+*/
 
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
+	while (*str != '\0')
 	{
-	 putchar(*str);
+		_putchar(*str++);
 	}
-	 putchar('\n');
+		 _putchar('\n');
 }
